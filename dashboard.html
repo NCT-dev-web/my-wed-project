@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <style>
+      /* CSS cho trang dashboard */
+
+      body {
+        background: url(./assets/mau-background-dep-5YVDuaJ.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 36px;
+        color: #fff;
+        text-align: center;
+        margin-top: 100px;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      .dashboard-container {
+        margin: 100px 0 0 200px;
+        width: 70%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .dashboard-container img {
+        width: 10%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        transition: all ease-in-out 0.5s;
+        cursor: text;
+      }
+
+      .dashboard-container img:hover {
+        width: 50%;
+        height: 100%;
+      }
+
+      p {
+        color: #fff;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      button:hover {
+        background-color: #004d40;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>YEU EM</h1>
+    <div class="dashboard-container">
+      <img src="./assets/z5824774841184_813c6ea77bb82560edd59e6a8d2472eb.jpg" />
+
+      <img src="./assets/z5836223170967_ec6c9bc0031947183428f472c4b0a38f.jpg" />
+
+      <img src="./assets/z5853104589768_6e35a9b8899e12d6017813343adf2008.jpg" />
+
+      <img src="./assets/z5853105324804_a80e3217b50760ef4b8e8dcf21deef89.jpg" />
+    </div>
+    <p>
+      Có lời anh muốn nói với em từ bấy lâu nay, a thật sự cám ơn em đã cho anh
+      một cảm giác hiếm có này, a rất mong em luôn quan tâm cũng như anh quan
+      tâm em, để đáp lại e tấm chân tình này, anh sẽ cố gắng hơn để em được hạnh
+      phúc
+    </p>
+
+    <button onclick="logout()">Đăng xuất</button>
+
+    <script>
+      function logout() {
+        // Chuyển hướng về trang đăng nhập
+        window.location.href = "login.html"; // Chuyển về giao diện login
+      }
+    </script>
+  </body>
+</html>
